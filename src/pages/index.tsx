@@ -1,8 +1,5 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Image from "next/image";
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Geist, Geist_Mono } from "next/font/google";
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import EbookReader from '../components/EbookReader';
 
 const geistSans = Geist({
@@ -29,15 +26,13 @@ export default function Home() {
           height={38}
           priority
         />
+        {/* Usunięcie sekcji z tekstem */}
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Get started by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               src/pages/index.tsx
             </code>
-            .
           </li>
-          <li>Save and see your changes instantly.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
