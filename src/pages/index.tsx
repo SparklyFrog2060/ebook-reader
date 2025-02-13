@@ -1,5 +1,8 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Image from "next/image";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Geist, Geist_Mono } from "next/font/google";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import EbookReader from '../components/EbookReader';
 
 const geistSans = Geist({
