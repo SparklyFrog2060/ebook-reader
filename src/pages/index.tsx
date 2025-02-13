@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-var
+// eslint-disable-next-line
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import EbookReader from '../components/EbookReader';
